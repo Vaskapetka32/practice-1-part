@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html_css_js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/" method="POST" id="form">
+      <div class="form">
+        <center><h1 title="Форма">Форма</h1></center>
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите ваше имя..." />
+        </div>
+
+        <div class="form-group">
+          <label for="surname">Ваша Фамилия:</label>
+          <input
+            type="text"
+            id="surname"
+            placeholder="Введите вашу фамилию..."
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email..." />
+        </div>
+        <div class="form-group">
+          <label for="password">Пароль:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Введите пароль..."
+            checked
+          />
+        </div>
+
+        <center><button type="submit" class="btn">submit</button></center>
+      </div>
+    </form>
+    <script src="submit.js"></script>
+  </body>
+</html>
